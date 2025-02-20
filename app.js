@@ -1,9 +1,15 @@
-const amount = 12;
+const os = require('os');
 
-if (amount < 10) {
-  console.log('small number');
-} else {
-  console.log('large number');
-}
+// Info about current user
+const user = os.userInfo();
 
-console.log(`hello`);
+// console.log(user);
+// console.log(`${os.uptime()}`);
+
+const currentOS = {
+  name: os.type(),
+  release: os.release(),
+  totalMemory: os.totalmem(),
+  freeMemory: os.freemem(),
+};
+console.log(currentOS);
