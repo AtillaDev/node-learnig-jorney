@@ -1,5 +1,7 @@
 const { readFile, writeFile, writeFileSync } = require('fs');
 
+console.log('start');
+
 readFile('./content/first.txt', 'utf-8', (err, result) => {
   if (err) {
     console.log(err);
@@ -27,3 +29,5 @@ readFile('./content/first.txt', 'utf-8', (err, result) => {
     );
   });
 });
+
+console.log('done');
