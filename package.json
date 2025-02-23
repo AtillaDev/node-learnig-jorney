@@ -1,0 +1,24 @@
+{
+  "name": "learn-node",
+  "version": "1.0.0",
+  "main": "01-intro.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AtillaDev/node-learnig-jorney.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AtillaDev/node-learnig-jorney/issues"
+  },
+  "homepage": "https://github.com/AtillaDev/node-learnig-jorney#readme",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
